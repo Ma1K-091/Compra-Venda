@@ -1,0 +1,15 @@
+
+package Models;
+
+public class Vendedor extends Usuarios {
+    private boolean primeiroLogin = true;
+
+    public boolean isPrimeiroLogin() {
+        return primeiroLogin;
+    }
+
+    public void setPrimeiroLogin(boolean primeiroLogin) {
+        this.primeiroLogin = primeiroLogin;
+    }
+    private Carro car;
+}
